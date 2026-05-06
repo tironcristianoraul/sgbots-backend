@@ -26,7 +26,7 @@ const env = {
     url:
       MODE === "testing"
         ? `http://127.0.0.1:${PORT}`
-        : `http://95.76.109.39:${PORT}`,
+        : `https://sgbots-backend.onrender.com`,
     // superadmins: SUPERADMINS.split("|"),
   },
 };
